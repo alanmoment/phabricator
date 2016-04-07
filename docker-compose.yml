@@ -1,0 +1,17 @@
+phabricator:
+  build: .
+  links: ['database']
+  ports: ['8081:80']
+  extra_hosts:
+   - "alanmoment.io:192.168.1.24"
+  volumes:
+   - /Users/alan/Workspace/DockerService/phabricator/repo:/opt/backup/repo
+   - /Users/alan/Workspace/DockerService/phabricator/storage:/opt/backup/storage
+   # - /Users/alan/Workspace/DockerService/phabricator/conf:/opt/phabricator/conf/local
+   - /Users/alan/Workspace/DockerService/phabricator/mysql:/opt/backup/mysql
+
+database:
+  build: database/
+  ports: ['33306:3306']
+  # volumes:
+   # - /Users/alan/Workspace/DockerService/phabricator/mysql:/var/lib/mysql

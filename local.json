@@ -1,0 +1,22 @@
+{
+      "storage.default-namespace": "default",
+      "mysql.host": "{{MYSQL_HOST}}",
+      "mysql.user": "{{MYSQL_USER}}",
+      "mysql.pass": "{{MYSQL_PASS}}",
+      "pygments.enabled": true,
+      "phabricator.timezone": "Asia/Taipei",
+      "phabricator.base-uri": "http://alanmoment.io:8081/",
+      "welcome.html": "<html><body style='margin: 0px'><br /><h1 style='text-align: center'>Hardworking!</h1><img style='-webkit-user-select:none; display:block; margin:auto;' src='http://pic.pimg.tw/markleeblog/1383024945-1385249613.jpg?v=1383024946'></body></html>",
+      "storage.local-disk.path": "/opt/backup/storage/",
+      "security.alternate-file-domain": "http://alanmoment.io:8081/",
+      "phpmailer.smtp-host": "smtp.gmail.com",
+      "phpmailer.smtp-port": 465,
+      "phpmailer.smtp-user": "alan.moment77@gmail.com",
+      "phpmailer.smtp-password": "sw3j6Jz3q=b2",
+      "phpmailer.smtp-protocol": "ssl",
+      "metamta.mail-adapter": "PhabricatorMailImplementationPHPMailerAdapter",
+      "metamta.default-address": "alan.moment77@gmail.com",
+      "metamta.domain": "alanmoment.io",
+      "feed.http-hooks": "[\"http://localhost:8086/\"]",
+      "load-libraries": "{\"sprint\":\"/opt/libext/sprint/src\"}"
+}
